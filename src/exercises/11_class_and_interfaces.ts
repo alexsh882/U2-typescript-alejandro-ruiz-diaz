@@ -10,7 +10,10 @@ interface Shape {
 
 // Clase Circle que implementa la interfaz Shape
 class Circle implements Shape {
-  // Propiedad radius de tipo number que recibe el radio del círculo
+  /* De esta manera también se declara la propiedad radius, en el constructor, 
+  lo que hace que se inicialice la propiedad radius de la clase Circle con el valor que se le pase al constructor.
+  */
+
   constructor(private radius: number) {}
 
   // Método area que devuelve el área del círculo
