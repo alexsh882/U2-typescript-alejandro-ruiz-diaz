@@ -4,7 +4,7 @@
 
 /* Defino la clase Car con el constructor que inicializa la propiedad make 
     y un método drive que imprime un mensaje en la consola.*/
-class Car {
+export default class Car {
   private make: string;
 
   constructor(make: string) {
