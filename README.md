@@ -28,16 +28,21 @@ Añade un constructor a la clase Car que inicialice la propiedad make. Crea una 
 
 9. **Clase con propiedades privadas**
 Modifica la clase Car para que la propiedad make sea privada. Añade un método getMake() que devuelva el valor de make.
+
 10. **Herencia de clases**
 Crea una clase ElectricCar que extienda de Car e incluya una propiedad adicional batteryLife (vida de la batería) de tipo número. Añade un método charge() que imprima un mensaje diciendo que el coche se está cargando.
+
 11. **Interface y clases**
 Crea una interfaz Shape que tenga un método area() que devuelve un número. Luego, crea una clase Circle que implemente esta interfaz y calcule el área de un círculo.
+
 12. **Tipos literales**
 Crea una variable direction que solo pueda tener uno de los siguientes valores: "up", "down", "left", "right".
 
 13. **Enum**
 Declara un enum Color con los valores "Red", "Green", y "Blue". Crea una función que tome un argumento de tipo Color y devuelva un mensaje con el color.
+
 14. **Type assertions**
 Declara una variable de tipo any con un valor numérico y usa una aserción de tipo para tratarla como un string. Usa la propiedad “.length” en esta variable.
+
 15. **Genéricos (básico)**
 Escribe una función genérica identity que tome un argumento de tipo T y devuelva el mismo valor. Usa esta función con diferentes tipos de datos.
